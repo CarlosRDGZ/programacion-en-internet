@@ -1,8 +1,10 @@
+// 12 de marzo
 var EventEmmiter = require('events');
 var util = require('util');
 
 // Function constructor
 function Greetr() {
+    EventEmmiter.call(this);
     this.greeting = 'Hello World'
 }
 
